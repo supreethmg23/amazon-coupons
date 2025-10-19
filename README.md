@@ -89,6 +89,6 @@ All plots include clear labels, readable scales, and descriptive titles.
 
 ## Project Structure
 ├── data/
-│ └── coupons.csv
+│   └── coupons.csv
 ├── coupon_analysis.ipynb
-├── README.md
+└── README.md
