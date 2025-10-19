@@ -18,12 +18,6 @@ Using Python (`pandas`, `matplotlib`, `seaborn`, `numpy`), the analysis explores
 
 ---
 
-## Data Source
-- **Dataset:** In-Vehicle Coupon Recommendation  
-- **Source:** [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/in-vehicle+coupon+recommendation)
-
----
-
 ## Tools and Libraries
 - Python 3.x  
 - pandas  
@@ -34,7 +28,7 @@ Using Python (`pandas`, `matplotlib`, `seaborn`, `numpy`), the analysis explores
 ---
 
 ## Notebook Link
-👉 [View the Jupyter Notebook](notebooks/coupon_analysis.ipynb)
+👉 [View the Jupyter Notebook](coupon_analysis.ipynb)
 
 ---
 
@@ -52,16 +46,16 @@ Using Python (`pandas`, `matplotlib`, `seaborn`, `numpy`), the analysis explores
 ### 2. Independent Investigations
 
 #### Passenger Analysis
-- **With Friends:** Highest acceptance (~64%) → social context increases likelihood.  
-- **With Partner:** Moderate (~49%).  
-- **Alone:** Lower (~38%).  
-- **With Kids:** Lowest (~29%) → family constraints reduce flexibility.  
+- **With Friends:** Highest acceptance → social context increases likelihood.  
+- **With Partner:** Moderate.  
+- **Alone:** Lower.  
+- **With Kids:** Lowest → family constraints reduce flexibility.  
 **Insight:** Social passengers (friends/partners) encourage spontaneous decisions to redeem coupons.
 
 #### Weather and Time Analysis
-- **Sunny days:** Highest acceptance (~50–55%).  
-- **Rainy days:** Lowest (~35–40%).  
-- **Snowy:** Moderate (~44%).  
+- **Sunny days:** Highest acceptance.  
+- **Rainy days:** Lowest.  
+- **Snowy:** Moderate.  
 - Across all weather types, acceptance peaked around **2 PM** → drivers are more open during midday travel.  
 **Insight:** Drivers are more likely to accept coupons during **pleasant weather** and **daytime hours**.
 
